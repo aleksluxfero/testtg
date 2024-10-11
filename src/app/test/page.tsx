@@ -2,7 +2,7 @@
 import {useBackButton} from "@telegram-apps/sdk-react";
 import {useEffect} from "react";
 
-export default function Test() {
+export default function Page() {
     const bb = useBackButton();
 
     useEffect(() => {
